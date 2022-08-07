@@ -4,15 +4,23 @@ MoveHQ is a tech assessment project for MoveHQ.
 
 ## Getting Started
 
-Make sure Docker and npm are installed.
+Make sure Docker, PHP, composer, and npm are installed.
+
+Open a console and navigate to the code directory.
 
 Copy the .env.example file to .env
 
-Then, open a console and navigate to the code directory.  Initialize Laravel Sail, which will build the Docker containers on your machine.
+`$ cp .env.example .env`
 
-`
-$ ./vendor/bin/sail up
-`
+Install third party packages
+
+`$ npm install`
+
+`$ composer install`
+
+Initialize Laravel Sail, which will build the Docker containers on your machine when run the first time.
+
+`$ ./vendor/bin/sail up`
 
 In another console, run npm:
 
