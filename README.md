@@ -26,6 +26,10 @@ In another console, run npm:
 
 `npm run dev`
 
+In another console, run the database migrations and seeder:
+
+`php artisan migrate --seed`
+
 Now, you can access the app by visiting http://localhost
 
 To get full access, register an account by visiting http://localhost/register
